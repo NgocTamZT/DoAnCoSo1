@@ -51,6 +51,7 @@
             this.gridView1.GridControl = this.gridCtrl;
             this.gridView1.Name = "gridView1";
             this.gridView1.OptionsFind.SearchInPreview = true;
+            this.gridView1.OptionsView.ShowGroupPanel = false;
             // 
             // GCtrl
             // 

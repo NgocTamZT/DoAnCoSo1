@@ -11,9 +11,9 @@ namespace testcsdl.Table
         {
             HocVus = new HashSet<HocVu>();
         }
-        //[Display(Name = "Danh Mục ID")]
+        
         public int DanhMucID { get; set; }
-        //[Display(Name = "Tên Danh Mục")]
+        
         [Required]
         [StringLength(50)]
         public string TenDanhMuc { get; set; }

@@ -11,21 +11,20 @@ using DevExpress.XtraEditors;
 
 namespace testcsdl
 {
-    public partial class HocVu : DevExpress.XtraEditors.XtraForm
+    public partial class User1 : DevExpress.XtraEditors.XtraForm
     {
-        public HocVu()
+        public User1()
         {
             InitializeComponent();
         }
 
         private void barButtonItem1_ItemClick(object sender, DevExpress.XtraBars.ItemClickEventArgs e)
         {
+            
+            
 
-        }
-
-        private void barButtonItem2_ItemClick(object sender, DevExpress.XtraBars.ItemClickEventArgs e)
-        {
-
+            XtraMessageBox.Show("Lưu thành công");
+            this.Close();
         }
     }
 }

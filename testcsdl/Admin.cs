@@ -105,8 +105,8 @@ namespace testcsdl
         }
         private void barButtonItem2_ItemClick(object sender, DevExpress.XtraBars.ItemClickEventArgs e)
         {
-            HocVu hv = new HocVu();
-            hv.Show();
+            //HocVu hv = new HocVu();
+            //hv.Show();
         }
         private void barButtonItem3_ItemClick(object sender, DevExpress.XtraBars.ItemClickEventArgs e)
         {
@@ -124,12 +124,12 @@ namespace testcsdl
         }
         private void barButtonItem6_ItemClick(object sender, DevExpress.XtraBars.ItemClickEventArgs e)
         {
-            DanhMuc dm = new DanhMuc();
+            DanhMuc1 dm = new DanhMuc1();
             dm.Show();
         }
         private void barButtonItem10_ItemClick(object sender, DevExpress.XtraBars.ItemClickEventArgs e)
         {
-            Form FromDanhMuc = kiemtraform(typeof(DanhMuc));
+            Form FromDanhMuc = kiemtraform(typeof(DanhMuc1));
             if (FromDanhMuc == null)
             {
                 GCtrl dmuc = new GCtrl();
@@ -164,6 +164,11 @@ namespace testcsdl
         }
 
         private void barButtonItem5_ItemClick(object sender, DevExpress.XtraBars.ItemClickEventArgs e)
+        {
+            this.Close();
+        }
+
+        private void barButtonItem20_ItemClick(object sender, DevExpress.XtraBars.ItemClickEventArgs e)
         {
 
         }

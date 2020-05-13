@@ -11,20 +11,16 @@ using DevExpress.XtraEditors;
 
 namespace testcsdl
 {
-    public partial class User : DevExpress.XtraEditors.XtraForm
+    public partial class Lop1 : DevExpress.XtraEditors.XtraForm
     {
-        public User()
+        public Lop1()
         {
             InitializeComponent();
         }
 
-        private void barButtonItem1_ItemClick(object sender, DevExpress.XtraBars.ItemClickEventArgs e)
+        private void Lop_Load(object sender, EventArgs e)
         {
-            
-            
 
-            XtraMessageBox.Show("Lưu thành công");
-            this.Close();
         }
     }
 }

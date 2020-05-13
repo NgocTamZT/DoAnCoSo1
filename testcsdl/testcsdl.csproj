@@ -96,11 +96,11 @@
     <Compile Include="Add.Designer.cs">
       <DependentUpon>Add.cs</DependentUpon>
     </Compile>
-    <Compile Include="DanhMuc.cs">
+    <Compile Include="DanhMuc1.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="DanhMuc.Designer.cs">
-      <DependentUpon>DanhMuc.cs</DependentUpon>
+    <Compile Include="DanhMuc1.Designer.cs">
+      <DependentUpon>DanhMuc1.cs</DependentUpon>
     </Compile>
     <Compile Include="DanhMucControl.cs">
       <SubType>Form</SubType>
@@ -127,12 +127,6 @@
     <Compile Include="GCtrl.Designer.cs">
       <DependentUpon>GCtrl.cs</DependentUpon>
     </Compile>
-    <Compile Include="HocVu.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="HocVu.Designer.cs">
-      <DependentUpon>HocVu.cs</DependentUpon>
-    </Compile>
     <Compile Include="HocVuControl.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -145,11 +139,11 @@
     <Compile Include="Login.Designer.cs">
       <DependentUpon>Login.cs</DependentUpon>
     </Compile>
-    <Compile Include="Lop.cs">
+    <Compile Include="Lop1.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Lop.Designer.cs">
-      <DependentUpon>Lop.cs</DependentUpon>
+    <Compile Include="Lop1.Designer.cs">
+      <DependentUpon>Lop1.cs</DependentUpon>
     </Compile>
     <Compile Include="LopControl.cs">
       <SubType>Form</SubType>
@@ -157,6 +151,11 @@
     <Compile Include="LopControl.Designer.cs">
       <DependentUpon>LopControl.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\202005131800587_HocVuSV.cs" />
+    <Compile Include="Migrations\202005131800587_HocVuSV.designer.cs">
+      <DependentUpon>202005131800587_HocVuSV.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Students.cs">
@@ -177,11 +176,11 @@
     <Compile Include="Admin.Designer.cs">
       <DependentUpon>Admin.cs</DependentUpon>
     </Compile>
-    <Compile Include="User.cs">
+    <Compile Include="User1.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="User.Designer.cs">
-      <DependentUpon>User.cs</DependentUpon>
+    <Compile Include="User1.Designer.cs">
+      <DependentUpon>User1.cs</DependentUpon>
     </Compile>
     <Compile Include="UserControl.cs">
       <SubType>Form</SubType>
@@ -198,8 +197,8 @@
     <EmbeddedResource Include="Add.resx">
       <DependentUpon>Add.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="DanhMuc.resx">
-      <DependentUpon>DanhMuc.cs</DependentUpon>
+    <EmbeddedResource Include="DanhMuc1.resx">
+      <DependentUpon>DanhMuc1.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="DanhMucControl.resx">
       <DependentUpon>DanhMucControl.cs</DependentUpon>
@@ -213,20 +212,20 @@
     <EmbeddedResource Include="GCtrl.resx">
       <DependentUpon>GCtrl.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="HocVu.resx">
-      <DependentUpon>HocVu.cs</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="HocVuControl.resx">
       <DependentUpon>HocVuControl.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Login.resx">
       <DependentUpon>Login.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Lop.resx">
-      <DependentUpon>Lop.cs</DependentUpon>
+    <EmbeddedResource Include="Lop1.resx">
+      <DependentUpon>Lop1.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="LopControl.resx">
       <DependentUpon>LopControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202005131800587_HocVuSV.resx">
+      <DependentUpon>202005131800587_HocVuSV.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\licenses.licx" />
     <EmbeddedResource Include="Properties\Resources.resx">
@@ -245,8 +244,8 @@
     <EmbeddedResource Include="Students.resx">
       <DependentUpon>Students.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="User.resx">
-      <DependentUpon>User.cs</DependentUpon>
+    <EmbeddedResource Include="User1.resx">
+      <DependentUpon>User1.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="UserControl.resx">
       <DependentUpon>UserControl.cs</DependentUpon>

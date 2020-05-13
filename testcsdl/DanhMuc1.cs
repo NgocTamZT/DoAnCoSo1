@@ -12,17 +12,17 @@ using testcsdl.Table;
 
 namespace testcsdl
 {
-    public partial class DanhMuc : DevExpress.XtraEditors.XtraForm
+    public partial class DanhMuc1 : DevExpress.XtraEditors.XtraForm
     {
         database db = new database();
-        public DanhMuc()
+        public DanhMuc1()
         {
             InitializeComponent();
         }
         void LoadDataDanhMuc()
         {
 
-            //gridCtrl.datasource = db.danhmucs.select(us => new
+            //gridctrl.datasource = db.danhmucs.select(us => new
             //{
             //    danhmucid = us.danhmucid,
             //    tendanhmuc = us.tendanhmuc,
