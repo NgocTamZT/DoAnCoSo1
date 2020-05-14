@@ -25,12 +25,12 @@ namespace testcsdl
         }
         void LoadDataDonVi()
         {
-            GCtrl.DataSource = db.DonVis.Select(us => new
-            {
-                DonViID = us.DonViID,
-                TenDonVi = us.TenDonVi,
+            //GCtrl.DataSource = db.DonVis.Select(us => new
+            //{
+            //    DonViID = us.DonViID,
+            //    TenDonVi = us.TenDonVi,
 
-            }).ToList();
+            //}).ToList();
         }
     }
 }
